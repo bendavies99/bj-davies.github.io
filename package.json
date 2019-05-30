@@ -5,14 +5,21 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy": "gh-pages -b master -d dist",
+    "predeploy": "npm run build"
   },
   "dependencies": {
+    "@babel/polyfill": "^7.0.0-rc.1",
+    "@fortawesome/fontawesome-free": "^5.2.0",
     "core-js": "^2.6.5",
+    "gh-pages": "^2.0.1",
+    "roboto-fontface": "*",
     "vue": "^2.6.10",
     "vue-class-component": "^7.0.2",
-    "vue-property-decorator": "^8.1.0",
+    "vue-property-decorator": "^8.1.1",
     "vue-router": "^3.0.3",
+    "vuetify": "^1.5.5",
     "vuex": "^3.0.1"
   },
   "devDependencies": {
@@ -23,11 +30,13 @@
     "node-sass": "^4.9.0",
     "sass-loader": "^7.1.0",
     "typescript": "^3.4.3",
+    "vue-cli-plugin-vuetify": "^0.5.0",
     "vue-template-compiler": "^2.6.10"
   },
   "gitHooks": {
     "pre-commit": "lint-staged"
   },
+  "homepage": "https://bendavies99.github.io",
   "lint-staged": {
     "*.ts": [
       "vue-cli-service lint",

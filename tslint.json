@@ -1,12 +1,11 @@
 {
-  "defaultSeverity": "warning",
-  "extends": [
-    "tslint:recommended"
-  ],
+  "defaultSeverity": "error",
+  "extends": ["tslint:recommended"],
+  "jsRules": {
+    "no-unused-expression": true
+  },
   "linterOptions": {
-    "exclude": [
-      "node_modules/**"
-    ]
+    "exclude": ["node_modules/**"]
   },
   "rules": {
     "quotemark": [true, "single"],
@@ -14,6 +13,20 @@
     "interface-name": false,
     "ordered-imports": false,
     "object-literal-sort-keys": false,
-    "no-consecutive-blank-lines": false
-  }
+    "no-consecutive-blank-lines": false,
+    "member-access": [false],
+    "max-line-length": [true, 150],
+    "member-ordering": [false],
+    "arrow-parens": false,
+    "semicolon": [true, "always", "ignore-bound-class-methods"],
+    "variable-name": [
+      true,
+      "ban-keywords",
+      "check-format",
+      "allow-snake-case",
+      "allow-pascal-case",
+      "allow-leading-underscore"
+    ]
+  },
+  "rulesDirectory": []
 }
