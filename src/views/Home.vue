@@ -7,7 +7,7 @@
             <h1 class="name-header">Ben Davies</h1>
             <v-divider dark/>
             <br>
-            <h1 class="font-weight-light">Full Stack Developer</h1>
+            <h1 class="font-weight-light">Full Stack Developer / Software Engineer</h1>
             <br>
             <h3 class="red--text">Site under construction!</h3>
           </v-flex>
