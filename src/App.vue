@@ -14,9 +14,9 @@ export default class App extends Vue {}
 </script>
 
 <style lang="scss">
-html,
-body {
-  overflow-y: hidden !important;
+html {
+  overflow-y: auto !important;
+  scroll-behavior: smooth;
 }
 </style>
 
