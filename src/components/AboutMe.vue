@@ -17,7 +17,7 @@
           <span>
             <strong>Hi All!</strong>
             <p>
-              I am a third year Computer Science student at Keele University. I have a great love for problem solving
+              I am a Application Support Developer at <a href='https://cimteq.com/'>Cimteq</a>. I have a great love for problem solving
               where I enjoy a challenge and solving it. Once I get an understanding of any framework I learn, I try to ensure that my
               code is as clean and efficient as possible. My passion for programming has led me to apply to be a software engineer
               where I particularly enjoy the process of designing something useful for people, understanding fully how it works,
